@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+}
+
+.top {
+background-color: black;
+height: 50px;
+display: flex;
+}
+
+#boxset {
+width: 10%;
+margin: 0 5%;
+}
+
+.menu-div {
+width: 50%;
+padding: 1% 5%;
+font-family:  helvetica;
+font-size: 8px;
+}
+
+.icons {
+color: white;
+padding: 1%;
+}
+
+ul {
+color: white;
+padding: 0;
+display: flex;
+list-style-type: none;
+}
+
+li {
+cursor: pointer;
+padding: 0 2%;
+width: 20%;
+}
+
+#img-march {
+margin-left: 50%;
+width: 100%;
+}
+
+#first-image{
+background-image: url("../assets/images/bg-purple.png");
+background-size: cover;
+/* padding-top: 20%; */
+background-attachment: local;
+}
+
+#second-image{
+background-image: url("../assets/images/bg-green-dekstop.png");
+background-size: cover;
+padding-top: 20%;
+background-attachment: local;
+}
+
+body,
+html,
+.container {
+  height: 100%;
+  width: 100%;
+}
+.container,
+.content {
+  display: flex;
+}
+.container {
+  flex-direction: column;
+}
+.content,
+.content div {
+  flex: 1;
+}
+.content div {
+  overflow: scroll;
+}
